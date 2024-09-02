@@ -1,8 +1,8 @@
 def search(arr,target)
   arr.each do |element|
     if element == target
-      return element
+      return true
     end
   end
-  return nil
+  return false
 end
